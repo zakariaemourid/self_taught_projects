@@ -1,0 +1,96 @@
+:root {
+  --green: #3bb99b;
+  --black: #282c34;
+  --footerColor: #707793;
+  --white: #ffffff;
+  --whitesmoke: #f8f8f8;
+  --grey: #707070;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: regular;
+  background-color: var(--black);
+}
+nav {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.navlinks a {
+  color: var(--white);
+}
+.leftnav {
+  display: flex;
+  justify-content: space-around;
+  width: 10vw;
+  align-items: center;
+}
+.rightnav {
+  display: flex;
+  justify-content: space-around;
+  width: 25vw;
+  align-items: center;
+}
+.rightnav img {
+  border-radius: 50%;
+}
+.rightnav i {
+  color: var(--white);
+  font-size: 1.5em;
+}
+main {
+  width: 60%;
+  margin: 100px auto;
+}
+.logo {
+  width: 80%;
+  margin: 0 auto;
+  font-size: 5.5em;
+  text-align: center;
+  letter-spacing: 2rem;
+  color: #f8f8f8;
+}
+.logo span {
+  color: var(--green);
+}
+.search-bar {
+  background-color: var(--white);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  margin-top: 5rem;
+  border-radius: 30px;
+}
+.search-bar i {
+  font-size: 1.5em;
+  color: var(--grey);
+}
+.buttons {
+  width: 60%;
+  margin: 2rem auto;
+  display: flex;
+  justify-content: space-between;
+}
+.button {
+  background-color: var(--white);
+  width: 50%;
+  padding: 1rem 2rem;
+  margin-left: 1rem;
+  text-align: center;
+  border-radius: 4px;
+}
+.main {
+  display: flex;
+  align-items: center;
+}
